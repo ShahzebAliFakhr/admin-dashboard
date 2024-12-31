@@ -13,8 +13,72 @@
 
 </head>
 <body>
-
+	<!-- Sidebar -->
+	<nav class="sidebar">
+		<div class="sidebar-header">
+			<i class="bi bi-person-circle"></i>
+			<span>Sidebar</span>
+		</div>
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">
+					<i class="bi bi-house-door"></i> <span>Home</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#features">
+					<i class="bi bi-star"></i> <span>Features</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#pricing">
+					<i class="bi bi-tags"></i> <span>Pricing</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">
+					<i class="bi bi-envelope"></i> <span>Contact</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseSetup">
+					<i class=" bi-folder"></i>
+					<span>Setup</span>
+				</a>
+				<div id="collapseSetup" class="collapse">
+					<div class="bg-white py-2 collapse-inner rounded">
+						<a class="collapse-item" href="#">Companies</a>
+						<a class="collapse-item" href="#">Branches</a>
+						<a class="collapse-item" href="#">Companies</a>
+						<a class="collapse-item" href="#">Branches</a>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseMenu">
+					<i class="bi-folder"></i>
+					<span>Menu</span>
+				</a>
+				<div id="collapseMenu" class="collapse">
+					<div class="bg-white py-2 collapse-inner rounded">
+						<a class="collapse-item" href="#">Companies</a>
+						<a class="collapse-item" href="#">Branches</a>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">
+					<i class="bi bi-envelope"></i> <span>Contact</span>
+				</a>
+			</li>
+		</ul>
+		<button class="toggle-button">
+			<i class="bi bi-chevron-left" id="toggleIcon"></i>
+		</button>
+	</nav>
+	  
 	<!-- JS FILES -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
